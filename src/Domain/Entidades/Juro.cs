@@ -6,6 +6,6 @@ namespace Domain.Entidades
 {
     public class Juro
     {
-        public double GetTaxaJuros() => 0.01;
+        //public double GetTaxaJuros() => 0.01;
     }
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces
 {
-    public interface IJuroService
+    public interface IAcessoExternoService
     {
-        Task<CalculaJurosDto> CalculaJuros(decimal valorInicial, int meses);
+        Task<RetornoAcessoExternoDto> ConsultarTaxaJuros();
     }
 }

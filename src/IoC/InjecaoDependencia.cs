@@ -12,6 +12,7 @@ namespace IoC
         public static void Registrar(IServiceCollection serviceCollection)
         {
             serviceCollection.AddScoped<IJuroService, JuroService>();
+            serviceCollection.AddScoped<IAcessoExternoService, AcessoExternoService>();
         }
     }
 }
