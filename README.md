@@ -5,7 +5,7 @@
 
   - Rodando em : 
   ```sh
-http://localhost:53792/api1
+https://localhost:44321/api1
 ```
   - /taxajuros  -  retorna a taxa de juros
   
@@ -14,7 +14,7 @@ http://localhost:53792/api1
 
   - Rodando em : 
   ```sh
-http://localhost:53795/api2
+https://localhost:44330/api2
 ```
   - /showmethecode  -  retorna url do projeto no github
   - juros/calculajuros  -  faz o calculo de juros compostos consultando a taxa informada na API1
